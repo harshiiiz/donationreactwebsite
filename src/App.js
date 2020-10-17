@@ -1,23 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './components/Navbar';
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import MyButton from './components/pages/Checkout';
+import Home  from './components/pages/Home';
+import './components/pages/checkout.css';
+import Success from './components/pages/Success';
+import Cancel from './components/pages/Cancel'
+
 
 function App() {
   return (
+    
     <div className="App">
+      
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      
+       
+        <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/about' component={About} />
+        <Route path='/contact' component={Contact} />
+        <Route path='/Success'  component={Success}/>
+        <Route path ='/checkout' component={MyButton}/>
+        <Route path='/Cancel' component={Cancel}/>
+      
+        </Switch>
+        
+        
+      </Router>
       </header>
     </div>
   );

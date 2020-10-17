@@ -1,0 +1,129 @@
+.btn-large {
+    background-color: rgb(43, 168, 177);
+    text-align: center;
+    
+    height: auto;
+    
+   position: absolute;
+    
+    -ms-transform: translate(-50% -50%);
+    transform: translate(-50% -50%);
+     margin-left:40%;
+     border: #9b3d3d;
+     
+    font-size: 20px;
+    padding:10px 20px;
+}
+.canceled{
+    font-size:25px;
+    text-align: center;
+    color: rgb(48, 75, 99);
+    align-items: center;
+    justify-content: center;
+    font-size:28px;
+    padding:100px 100px 100px 100px ;
+   
+}
+.thankyou{
+    font-size:25px;
+    text-align: center;
+    color: rgb(48, 75, 99);
+    align-items: center;
+    justify-content: center;
+    font-size:28px;
+    padding:100px 100px 100px 100px ;
+   
+}
+div.description {
+    text-align: center;
+    color: rgb(13, 18, 24);
+    align-items: center;
+    justify-content: center;
+    font-size:auto;
+     padding:auto; 
+    
+    
+  }
+  
+button:hover{
+    transition: 250ms ;
+    background: rgb(96, 128, 128);
+    color: white
+}
+label{
+  color: #242424;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+@media screen and (max-width: 1426px)
+and (min-width:1420px) {
+   div .description {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 1415px)
+and (min-width:855px) {
+   div .description {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 854px)
+  and (min-width:564px) {
+   div .description {
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 565px) 
+  and (min-width:482px){
+    div.description {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 483px)
+  and (min-width:400px) {
+   div .description {
+      font-size: 11px;
+    }
+  }
+  @media screen and (max-width: 401px)
+  and (min-width:364px) {
+    div.description {
+      font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 365px) 
+  {
+   div .description {
+      font-size: 10px;
+      padding:100px 20px;
+    }
+  }
+  @media screen and (min-width:1416px) {
+    .description {
+      font-size: 20px;
+    }
+  } 
+  
+  .contactme{
+    color: rgb(31, 29, 29);
+     
+    font-size:20px;
+    padding:0px 0px 60px;
+    height:100%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  @media screen and (max-width: 450px) {
+    .contactme {
+      font-size: 15px;
+    }
+  }
+ #image{
+   border-radius: 100px;
+   margin-left: 20px;
+  
+ }
