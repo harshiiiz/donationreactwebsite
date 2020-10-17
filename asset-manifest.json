@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/donationreactwebsite/static/css/main.a260dcf6.chunk.css",
+    "main.css": "/donationreactwebsite/static/css/main.1141ebbc.chunk.css",
     "main.js": "/donationreactwebsite/static/js/main.9e04014e.chunk.js",
     "main.js.map": "/donationreactwebsite/static/js/main.9e04014e.chunk.js.map",
     "runtime-main.js": "/donationreactwebsite/static/js/runtime-main.e1a6eddd.js",
@@ -8,9 +8,9 @@
     "static/js/2.f5cf323b.chunk.js": "/donationreactwebsite/static/js/2.f5cf323b.chunk.js",
     "static/js/2.f5cf323b.chunk.js.map": "/donationreactwebsite/static/js/2.f5cf323b.chunk.js.map",
     "index.html": "/donationreactwebsite/index.html",
-    "precache-manifest.d25af84e9f27f66cdfae6d7b182840ed.js": "/donationreactwebsite/precache-manifest.d25af84e9f27f66cdfae6d7b182840ed.js",
+    "precache-manifest.c825d2c5e921124c11311dfdf6dab542.js": "/donationreactwebsite/precache-manifest.c825d2c5e921124c11311dfdf6dab542.js",
     "service-worker.js": "/donationreactwebsite/service-worker.js",
-    "static/css/main.a260dcf6.chunk.css.map": "/donationreactwebsite/static/css/main.a260dcf6.chunk.css.map",
+    "static/css/main.1141ebbc.chunk.css.map": "/donationreactwebsite/static/css/main.1141ebbc.chunk.css.map",
     "static/js/2.f5cf323b.chunk.js.LICENSE.txt": "/donationreactwebsite/static/js/2.f5cf323b.chunk.js.LICENSE.txt",
     "static/media/IMG_20200923_153803_560.jpg": "/donationreactwebsite/static/media/IMG_20200923_153803_560.7a8b0d5c.jpg",
     "static/media/Screen+Shot+2020-06-07+at+12.31.30+PM.png": "/donationreactwebsite/static/media/Screen+Shot+2020-06-07+at+12.31.30+PM.a4980776.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.e1a6eddd.js",
     "static/js/2.f5cf323b.chunk.js",
-    "static/css/main.a260dcf6.chunk.css",
+    "static/css/main.1141ebbc.chunk.css",
     "static/js/main.9e04014e.chunk.js"
   ]
 }
