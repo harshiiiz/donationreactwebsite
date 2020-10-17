@@ -36,12 +36,12 @@
 }
 div.description {
     text-align: center;
-    color: rgb(13, 18, 24);
+    color: wheat;
     align-items: center;
     justify-content: center;
     font-size:auto;
      padding:auto; 
-    
+    margin-top: 150px;
     
   }
   
